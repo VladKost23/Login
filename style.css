@@ -1,0 +1,35 @@
+body{
+    background-image: url(image/bg.jpg);
+}
+.container{
+    width: 350px;
+    height: 750px;
+    background-color: rgba(37, 34, 35, 0.63);
+    margin: 150px auto 0 auto;
+    text-align: center;
+    box-shadow: #2c536c;
+    border-radius: 8px;
+}
+input[type=text], input[type=password], input[type=login], input[type=e-mail]{
+width: 200px;
+height: 40px;
+font-size: 16px;
+margin-top: 20px;
+margin-bottom: 30px;
+border-radius: 4px;
+padding-left: 10px;
+}
+.submit{
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(18, 73, 110);
+    border: none;
+    cursor: pointer;
+}
+.submit:hover{
+    transition: all 0.5s;
+    background: rgba(30, 115, 172, 0.767);
+    color: #2c536c
+}
